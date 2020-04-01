@@ -14,7 +14,7 @@ array_2 = [
   [4,3,0] 
 ]
 
-def find_greater_pair(aoa)
+def find_min_in_nested_arrays(aoa)
   outer_results=[]
   counter1=0
    while counter1 < aoa.length do
