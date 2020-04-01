@@ -20,7 +20,7 @@ def find_min_in_nested_arrays(aoa)
    while counter1 < aoa.length do
         aoa[counter1].sort!
         lowest_number=aoa[counter1].first
+        counter1=counter1 + 1
     end
     outer_results << lowest_number
-  counter1=counter1 + 1
 end
